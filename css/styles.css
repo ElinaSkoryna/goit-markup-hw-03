@@ -19,7 +19,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 0;
-}    
+}   
+
+img {
+    display: block;
+}
 
 .container {
     width: 1158px;
@@ -119,7 +123,7 @@ color: #404bbf;
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
@@ -150,8 +154,8 @@ color: #404bbf;
     background-color: #404BBF;
 }
 .feature {
-    padding-top: 121px;
-    padding-bottom: 121px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
